@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0240/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0240/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上消滅地獄昇陟天堂懺
+  date: '2015-08-29 00:14:39.628428'
+  source:
+    repository: kanripo
+    path: KR5b0240
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0240_000-ZTDZ.yaml, hash: 'sha256:58f510625aac63df46c4d1b610df39e70a947f846ea2153036b1e39f831598ab'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0240_000-ZTDZ.markers.yaml, hash: 'sha256:3618946372d2faa15f2116fbb60a8f10c0e65f0867a1cc79877f18c35e2e1901'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0240_SJB_000-090888a
+    span:
+    - body
+    - 0
+    - 3290
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:87b3b9489094c3c87d8f40013a4fd69c90e66e0c9c0fdf30327f2a6e3c9ea438
